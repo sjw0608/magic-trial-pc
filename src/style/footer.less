@@ -1,0 +1,162 @@
+// 底部固定导航
+.bottom-navigation {
+  background-color: #001023;
+  height: 200px;
+  .bottom-list {
+    width: 1180px;
+    margin: 0 auto;
+    a {
+      color: #fff;
+      &:hover {
+        color: #ff9600;
+      }
+    }
+    ul {
+      float: left;
+      color: #fff;
+      font-size: 14px;
+      padding: 20px 150px 0px 0px;
+      text-align: left;
+      &.right-font {
+        padding: 20px 0px;
+        text-align: right;
+        float: right;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    li {
+      line-height: 26px;
+    }
+  }
+}
+
+//浮窗
+.fixed {
+  position: fixed;
+  bottom: 230px;
+  right: 0;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 80px;
+  height: 320px;
+  & > div {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    background: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-bottom: 0px;
+    .icon-fixed {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      &.fixed-5 {
+        background: #ffffff url('../assets/magic/fixed-5.png') no-repeat center;
+        background-size: 100%;
+      }
+      &.fixed-4 {
+        background: #ffffff url('../assets/magic/fixed-4.png') no-repeat center;
+        background-size: 100%;
+      }
+      &.fixed-3 {
+        background: #ffffff url('../assets/magic/fixed-3.png') no-repeat center;
+        background-size: 100%;
+      }
+      &.fixed-2 {
+        background: #ffffff url('../assets/magic/fixed-2.png') no-repeat center;
+        background-size: 100%;
+      }
+      &.fixed-1 {
+        background: #ffffff url('../assets/magic/fixed-1.png') no-repeat center;
+        background-size: 100%;
+      }
+    }
+    p {
+      color: #8a8a8a;
+    }
+    .p2 {
+      display: none;
+    }
+    &:hover {
+      p {
+        color: #020202;
+      }
+      .p1 {
+        display: none;
+      }
+      .p2 {
+        display: block;
+      }
+      .arrow_box_wrap {
+        display: block;
+      }
+    }
+    .arrow_box_wrap {
+      position: absolute;
+      right: 95px;
+      top: 0;
+      display: none;
+      width: 340px;
+      cursor: default;
+    }
+    .arrow_box {
+      position: relative;
+      padding: 30px 24px 22px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 0 0 3px #999;
+      box-shadow: 0 0 3px #999;
+      background: #fff;
+      text-align: left;
+      .title {
+        font-size: 18px;
+        color: #333333;
+        line-height: 1;
+        i {
+          display: inline-block;
+          vertical-align: -2px;
+          width: 16px;
+          height: 17px;
+          background: url(../assets/magic/wen.png) no-repeat;
+        }
+      }
+      .content {
+        padding-top: 20px;
+        padding-left: 22px;
+        font-size: 14px;
+        color: #666666;
+        line-height: 1.4;
+      }
+      img {
+        max-width: 100%;
+      }
+      &:after {
+        left: 100%;
+        top: 40px;
+        border: solid transparent;
+        content: ' ';
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+      }
+      &:after {
+        border-color: rgba(255, 255, 255, 0);
+        border-left-color: #e2e2e2;
+        border-width: 10px;
+        margin-top: -10px;
+      }
+    }
+  }
+}

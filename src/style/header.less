@@ -1,0 +1,229 @@
+// 头部信息
+.shortcut-2014 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #001023;
+  .w {
+    width: 1180px;
+    background: #001023;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+  li {
+    float: left;
+    height: 40px;
+    padding: 0 2px;
+    &.dorpdown {
+      z-index: 999;
+      &:hover {
+        .dorpdown-layer {
+          display: block;
+        }
+      }
+    }
+    &.spacer {
+      width: 1px;
+      height: 20px;
+      margin-top: 9px;
+      padding: 0;
+      background: #fff;
+      overflow: hidden;
+    }
+  }
+  .cw-icon {
+    position: relative;
+    cursor: default;
+    zoom: 1;
+  }
+  .ci-right {
+    top: 12px;
+    right: 8px;
+    height: 7px;
+    overflow: hidden;
+    font: 400 15px/15px consolas;
+    color: #ffffff;
+    transition: transform 0.1s ease-in 0s;
+    -webkit-transition: -webkit-transform 0.1s ease-in 0s;
+  }
+  .dorpdown-layer {
+    display: none;
+    position: absolute;
+    top: 35px;
+    background: #102d50;
+    border: 1px solid #102d50;
+    z-index: 999;
+  }
+  .dd-spacer {
+    position: absolute;
+    top: -7px;
+    height: 10px;
+    background: #001023;
+    overflow: hidden;
+  }
+  .ttbar-atte,
+  .ttbar-serv {
+    .dd {
+      width: 82px;
+      padding-bottom: 0px;
+    }
+    .dt {
+      width: 49px;
+      padding: 0px 16px;
+    }
+  }
+  .dd {
+    line-height: 10px;
+  }
+  .dt {
+    float: left;
+    padding: 0 8px;
+  }
+  .help_center {
+    background-color: #102d50;
+    padding: 0px 10px;
+  }
+  .fore2 .middle {
+    vertical-align: middle;
+    margin-top: -4px;
+  }
+}
+
+//头部导航
+.magic-header {
+  position: relative;
+  z-index: 20;
+  height: 100px;
+  .container {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  }
+  .header-logo {
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+  }
+  .logo {
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    _zoom: 1;
+    background-color: #ff6700;
+    &:before {
+      background: url(../assets/magic/logo.png) no-repeat 50% 50%;
+      opacity: 1;
+      filter: alpha(opacity=100) \9;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  .logo:before,
+  .site-header .logo:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    content: '';
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .ir {
+    display: block;
+    text-align: left;
+    text-indent: -9999em;
+    overflow: hidden;
+    _zoom: 1;
+  }
+  .header-nav {
+    float: left;
+    width: 850px;
+  }
+  .nav-list {
+    position: relative;
+    z-index: 10;
+    float: left;
+    width: 820px;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+  }
+  .nav-item {
+    float: left;
+    .link {
+      display: block;
+      padding: 26px 10px 38px;
+      color: #333;
+      &:hover {
+        color: #f49b10;
+      }
+    }
+  }
+  .header-search {
+    float: right;
+    margin-top: 25px;
+  }
+  .search-form {
+    position: relative;
+    height: 50px;
+  }
+  .search-text {
+    position: absolute;
+    top: 0;
+    right: 51px;
+    z-index: 1;
+    width: 223px;
+    height: 46px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 48px;
+    outline: 0;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  .search-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    width: 52px;
+    height: 44px;
+    border: 1px solid #e0e0e0;
+    font-size: 24px;
+    line-height: 24px;
+    background: #fff;
+    color: #616161;
+    outline: 0;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    .search-img {
+      background-image: url(../assets/magic/search.png);
+      background-repeat: no-repeat;
+      padding: 24px;
+      background-position: 14px 11px;
+    }
+    &:hover {
+      border: 1px solid #102d50;
+      background: #102d50;
+      .search-img {
+        background-image: url(../assets/magic/search-1.png);
+        background-repeat: no-repeat;
+        padding: 24px;
+        background-position: 14px 11px;
+      }
+    }
+  }
+}
