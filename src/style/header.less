@@ -101,6 +101,7 @@
     margin-right: auto;
     margin-left: auto;
     position: relative;
+    overflow: inherit;
   }
   .header-logo {
     float: left;
@@ -168,6 +169,20 @@
       color: #333;
       &:hover {
         color: #f49b10;
+      }
+    }
+  }
+  .nav-item-all {
+    position: relative;
+    .home-hero-all {
+      display: none;
+    }
+    &:hover {
+      .home-hero-all {
+        display: block;
+        position: absolute;
+        left: -92px;
+        top: 80px;
       }
     }
   }
