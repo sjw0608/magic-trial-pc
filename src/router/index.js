@@ -4,7 +4,15 @@ import Index from '@/pages/Index/index'
 import GoodDetail from '@/pages/Detail/good_detail'
 import GoodList from '@/pages/List/goods_list'
 import UserCenter from '@/pages/user'
-import AccountNews from '@/pages/Account/news'
+import AccountNews from '@/pages/User/news'
+import UserProfile from '@/pages/User/user_profile'
+import Integral from '@/pages/User/user_log'
+import Trial from '@/pages/Trial/my_trial'
+
+//帮助
+import Guide from '@/pages/Help/new_guide'
+import SearchHelp from '@/pages/Help/search_help'
+import CopyOrders from '@/pages/Help/copy_orders'
 
 Vue.use(Router)
 
@@ -46,6 +54,36 @@ export default new Router({
           path: '/user/news',
           name: 'AccountNews',
           component: AccountNews
+        },
+        {
+          path: '/user/user_profile',
+          name: 'UserProfile',
+          component: UserProfile
+        },
+        {
+          path: '/user/user_profile/integral',
+          name: 'Integral',
+          component: Integral
+        },
+        {
+          path: '/user/trial',
+          name: 'Trial',
+          component: Trial
+        },
+        {
+          path: '/user/guide',
+          name: 'Guide',
+          component: Guide
+        },
+        {
+          path: '/user/search_help',
+          name: 'SearchHelp',
+          component: SearchHelp
+        },
+        {
+          path: '/user/copy_orders',
+          name: 'CopyOrders',
+          component: CopyOrders
         }
       ]
     }
