@@ -10,7 +10,7 @@
             </div>
             <a href="#">
               <div class="toux">
-                <img src="../../assets/magic/photo.jpg">
+                <img src="../../assets/magic/photo.jpg"><input type="file" name="file" class="upload__input" accept="image/png,image/gif">
                 <p class="font">更换头像</p>
               </div>
             </a>
@@ -26,9 +26,9 @@
                 <!--<small><span style="margin:0px 3px ">未绑定</span></small>-->
               </h2>
             </div>
-            <input class="personal-input" type="text" value="请输入邮箱地址">
-            <input style="width: 170px" class="personal-input" type="text" placeholder="请输入验证码"><a class="hot"
-              href="">获取验证码</a>
+            <input class="personal-input" type="text" placeholder="请输入邮箱地址">
+            <input style="width: 170px" class="personal-input" type="text" placeholder="请输入验证码">
+            <a class="hot" href="javascript:;">获取验证码</a>
             <div class="personal-tips">
               <p>1.如果未在邮箱收件箱收到，请到垃圾箱查看！</p>
               <p>2.修改完成，请用新邮箱登录平台！</p>
@@ -40,7 +40,7 @@
                 <!--<small><span style="margin:0px 3px ">未绑定</span></small>-->
               </h2>
             </div>
-            <input class="personal-input" type="text" value="请输入您的亚马逊账号">
+            <input class="personal-input" type="text" placeholder="请输入您的亚马逊账号">
             <div class="personal-tips">
               <p>1.绑定亚马逊账号可提高通过率</p>
               <p>2.可绑定多个亚马逊账号</p>
@@ -52,7 +52,7 @@
             </div>
           </div>
           <div style="margin-top: 20px;">
-            <a href="#" class="personal-buttom">保存修改</a>
+            <a href="javascript:;" class="personal-buttom">保存修改</a>
           </div>
         </div>
       </div>

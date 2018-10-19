@@ -31,7 +31,7 @@ export default {
           el: '.swiper-pagination'
         },
         //开启无限循环
-        loop: false,
+        loop: true,
         //设置同屏显示的数量，默认为1，使用auto是随意的意思。
         slidesPerView: 1,
         //开启鼠标滚轮控制Swiper切换。可设置鼠标选项，或true使用默认值。

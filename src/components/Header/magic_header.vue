@@ -53,13 +53,18 @@
 
 <script>
 export default {
-  created() {
-    this.name = this.$route.name
+  data() {
+    return {
+      name: ''
+    }
   },
   watch: {
     $route(route) {
       this.name = route.name
     }
+  },
+  created() {
+    this.name = this.$route.name
   }
 }
 </script>

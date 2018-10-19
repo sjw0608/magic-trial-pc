@@ -14,28 +14,31 @@
             <div class="more clearfix" style="margin-bottom: 10px;">
               <h2 class="subtitle">上传身份证照片</h2>
             </div>
-            <a style="float: left; margin-right:10px" href="#">
+            <a style="float: left; margin-right:10px" href="javascript:;">
               <div class="toux">
                 <img src="../../assets/magic/id.jpg">
+                <input type="file" name="file" class="upload__input" accept="image/png,image/gif">
                 <p class="font">证件正面</p>
               </div>
             </a>
-            <a style="float: left; margin-right:10px" href="#">
+            <a style="float: left; margin-right:10px" href="javascript:;">
               <div class="toux">
                 <img src="../../assets/magic/id.jpg">
+                <input type="file" name="file" class="upload__input" accept="image/png,image/gif">
                 <p class="font">证件反面</p>
               </div>
             </a>
-            <a style="float: left; margin-right:10px" href="#">
+            <a style="float: left; margin-right:10px" href="javascript:;">
               <div class="toux">
                 <img src="../../assets/magic/id.jpg">
+                <input type="file" name="file" class="upload__input" accept="image/png,image/gif">
                 <p class="font">手持证件半身照</p>
               </div>
             </a>
             <p style="clear: both"></p>
           </div>
           <div style="margin-top:30px;">
-            <a href="#" class="personal-buttom">提交</a>
+            <a href="javascript:;" class="personal-buttom">提交</a>
           </div>
         </div>
       </div>
