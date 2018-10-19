@@ -3,7 +3,7 @@
     <div class="shortcut-2014">
       <div class="w">
         <ul style="float: left">
-          <li class="fore1 ttbar-login" style="float: left"> <a href="#" target="_blank" class="link-user">您好！用户 adobe 欢迎您登录魔力试用商城</a> &nbsp;&nbsp; <a href="#" class="link-logout">退出</a> </li>
+          <li class="fore1 ttbar-login" style="float: left"> <a href="#" class="link-user">您好！用户 adobe 欢迎您登录魔力试用商城</a> &nbsp;&nbsp; <a href="#" class="link-logout">退出</a> </li>
           <!--登录注册布局-->
           <!-- <li class="fore2">
             <div class="dt"> <a href="#">用户登录</a> </div>
@@ -19,7 +19,7 @@
         </ul>
         <ul class="fr">
           <li class="fore2">
-            <div class="dt"> <a href="#">个人中心</a></div>
+            <div class="dt"> <router-link :to="{path:'/user/user_profile'}">个人中心</router-link></div>
           </li>
           <li class="spacer"></li>
           <li class="fore7 dorpdown ttbar-atte" aid="2_955_6494">
@@ -30,7 +30,7 @@
             </div>
           </li>
           <li class="fore2 help_center">
-            <div> <a  href=""><img  class="middle" src="../../assets/magic/help.png"> 帮助中心</a> </div>
+            <div> <router-link :to="{path:'/user/guide'}"><img  class="middle" src="../../assets/magic/help.png"> 帮助中心</router-link> </div>
           </li>
         </ul>
         <span class="clr"></span>

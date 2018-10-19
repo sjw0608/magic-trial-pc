@@ -5,14 +5,14 @@
         <div class="list-left">
           <ul>
             <li class="list-leimu">
-              <a href="" class="title-name">女装<span class="arrow-t"><img src="../../assets/magic/arrow-3.png" alt="" width="9px"></span></a>
+              <a href="javascript:;" class="title-name">女装<span class="arrow-t"><img src="../../assets/magic/arrow-3.png" alt="" width="9px"></span></a>
               <div class="dispaly-hover">
                 <div class="little-title">
-                  <p><a href="">长裙</a></p>
-                  <p><a href="">上衣</a></p>
-                  <p><a href="">长裤</a></p>
-                  <p><a href="">上衣</a></p>
-                  <p><a href="">长裙</a></p>
+                  <p><router-link :to="{path:'/good_list'}">长裙</router-link></p>
+                  <p><router-link :to="{path:'/good_list'}">上衣</router-link></p>
+                  <p><router-link :to="{path:'/good_list'}">长裤</router-link></p>
+                  <p><router-link :to="{path:'/good_list'}">上衣</router-link></p>
+                  <p><router-link :to="{path:'/good_list'}">长裙</router-link></p>
                 </div>
               </div>
             </li>

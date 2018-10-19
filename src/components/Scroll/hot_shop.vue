@@ -8,7 +8,7 @@
             <p class="shop-name">ASAHI 运动鞋 动物图案</p>
             <p class="shop-money">$124.65</p>
             <p class="shop-only"><i>限量10份</i></p>
-            <p class="shop-free"><a href="#">我要试用</a></p>
+            <p class="shop-free"><router-link :to="{path:'/good_detail'}">我要试用</router-link></p>
         </div>
       </swiper-slide>
     </template>

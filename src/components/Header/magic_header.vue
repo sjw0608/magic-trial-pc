@@ -5,21 +5,21 @@
       <div class="header-nav">
         <ul class="nav-list">
           <li class="nav-item nav-item-all" v-if="name != 'Index'">
-            <a class="link" href="#">全部商品分类</a>
+            <a class="link" href="javascript:;">全部商品分类</a>
             <div class="home-hero-container">
               <div class="home-hero home-hero-all">
                 <div class="list-left">
                   <ul>
-                    <li class="list-leimu"> <a class="title-name" href="">女装<span class="arrow-t"><img src="../../assets/magic/arrow-3.png" width="9px"></span></a>
+                    <li class="list-leimu"> <a class="title-name" href="javascript:;">女装<span class="arrow-t"><img src="../../assets/magic/arrow-3.png" width="9px"></span></a>
                       <div class="dispaly-hover">
                         <div class="little-title">
-                          <p><a href="">长裙</a></p>
-                          <p><a href="">上衣</a></p>
-                          <p><a href="">长裤</a></p>
-                          <p><a href="">长裙</a></p>
-                          <p><a href="">上衣</a></p>
-                          <p><a href="">长裤</a></p>
-                          <p><a href="">长裤</a></p>
+                          <p><router-link :to="{path:'/good_list'}">长裙</router-link></p>
+                          <p><router-link :to="{path:'/good_list'}">上衣</router-link></p>
+                          <p><router-link :to="{path:'/good_list'}">长裤</router-link></p>
+                          <p><router-link :to="{path:'/good_list'}">长裙</router-link></p>
+                          <p><router-link :to="{path:'/good_list'}">上衣</router-link></p>
+                          <p><router-link :to="{path:'/good_list'}">长裤</router-link></p>
+                          <p><router-link :to="{path:'/good_list'}">长裤</router-link></p>
                         </div>
                       </div>
                     </li>
@@ -28,13 +28,13 @@
               </div>
             </div>
           </li>
-          <li class="nav-item"><a class="link" href="">阿迪达斯</a></li>
-          <li class="nav-item"><a class="link" href="">雅诗兰黛</a></li>
-          <li class="nav-item"><a class="link" href="">资生堂</a></li>
-          <li class="nav-item"><a class="link" href="">蕉下</a></li>
-          <li class="nav-item"><a class="link" href="">象印</a></li>
-          <li class="nav-item"><a class="link" href="">娇韵诗</a></li>
-          <li class="nav-item"><a class="link" href="">海蓝之谜</a></li>
+          <li class="nav-item"><router-link :to="{path:'/good_list'}" class="link">阿迪达斯</router-link></li>
+          <li class="nav-item"><router-link :to="{path:'/good_list'}" class="link">雅诗兰黛</router-link></li>
+          <li class="nav-item"><router-link :to="{path:'/good_list'}" class="link">资生堂</router-link></li>
+          <li class="nav-item"><router-link :to="{path:'/good_list'}" class="link">蕉下</router-link></li>
+          <li class="nav-item"><router-link :to="{path:'/good_list'}" class="link">象印</router-link></li>
+          <li class="nav-item"><router-link :to="{path:'/good_list'}" class="link">娇韵诗</router-link></li>
+          <li class="nav-item"><router-link :to="{path:'/good_list'}" class="link">海蓝之谜</router-link></li>
         </ul>
       </div>
       <div class="header-search">

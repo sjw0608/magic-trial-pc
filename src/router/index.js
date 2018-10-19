@@ -14,7 +14,7 @@ import Trial from '@/pages/Trial/my_trial'
 import OrderId from '@/pages/Trial/order_id'
 
 //Account
-import Infomation from '@/pages/Account/infomation'
+import Information from '@/pages/Account/information'
 import Authentication from '@/pages/Account/authentication'
 import UpdatePassword from '@/pages/Account/update_password'
 import Withdrawal from '@/pages/Account/withdrawal'
@@ -88,9 +88,9 @@ export default new Router({
           component: OrderId
         },
         {
-          path: '/user/infomation',
-          name: 'Infomation',
-          component: Infomation
+          path: '/user/information',
+          name: 'Information',
+          component: Information
         },
         {
           path: '/user/update_password',

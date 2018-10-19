@@ -12,13 +12,13 @@
       <ul class="shop-list">
         <template v-for='idx in shop'>
           <li class="" :key="idx">
-            <a href="">
+            <router-link :to="{path:'/good_detail'}">
               <p class="shop-img"><img src="../../assets/magic/12.png"></p>
               <p class="shop-name">ASAHI 运动鞋 动物图案</p>
               <p class="shop-money">$124.65</p>
               <p class="shop-only"><i>限量10份</i></p>
               <p class="shop-free">我要试用</p>
-            </a>
+            </router-link>
           </li>
         </template>
       </ul>
